@@ -41,3 +41,6 @@ jobs:
       with:
         name: realworld-example-app
         path: target/realworld-example-app.jar
+
+    - name: Verify artifact download
+      run: ls -alh target
